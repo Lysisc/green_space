@@ -1,6 +1,6 @@
 /* reset */
 
-html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input {
     vertical-align: baseline;
     font-family: 'Microsoft Yahei', verdana, arial, helvetica;
     font-weight: inherit;
@@ -20,6 +20,7 @@ body {
     color: #333;
 }
 a {
+    color: #333;
     text-decoration: none;
 }
 a:hover {
@@ -60,4 +61,69 @@ blockquote, q {
 }
 .fr {
     float: right;
+}
+/* header */
+
+.header {
+    width: 100%;
+    background: url() no-repeat;
+}
+.header .center {
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+.header .center .header_logo {
+    width: 300px;
+    height: 40px;
+    display: block;
+    background: url(../images/index_logo.png) -35px 0 no-repeat;
+    margin: 40px 0 25px 100px;
+}
+.header .center .header_city {
+    position: absolute;
+    top: 20px;
+    left: 420px;
+    font-size: 16px;
+}
+.header .center .header_nav {
+    height: 32px;
+    line-height: 32px;
+    border-radius: 8px;
+    background-color: #7cab1e;
+}
+.header .center .header_nav .login {
+    float: right;
+    margin-right: 30px;
+}
+.header .center .header_nav .tab {
+    float: left;
+    font-size: 14px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid #ccc;
+}
+.header .center .header_nav .tab:hover, .header .center .header_nav .tab.on {
+    text-decoration: none;
+    background-color: #fbd32a;
+}
+.header .center .header_nav .tab.first {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 25px;
+}
+.bread {
+    width: 975px;
+    margin: 15px auto;
+    padding-left: 5px;
+    color: #628817;
+}
+.bread a {
+    font-size: 13px;
+    color: #628817;
+}
+.content {
+    width: 980px;
+    margin: 0 auto;
 }

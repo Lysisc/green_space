@@ -8,12 +8,13 @@
     width: 840px;
     height: 32px;
     margin: 0 auto;
-    background: #fff;
+    background-color: #fff;
 }
 .index_header .center .logo {
     width: 314px;
-    height: 32px;
+    height: 40px;
     float: left;
+    margin-top: -8px;
     background: url(../images/index_logo.png) no-repeat;
 }
 .index_header .center .nav {
@@ -34,7 +35,7 @@
     text-decoration: none;
     border-right: 1px solid #ccc;
 }
-.index_header .center .nav .tab:first-child {
+.index_header .center .nav .tab.first {
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     padding-left: 17px;
@@ -136,9 +137,32 @@
     line-height: 18px;
     text-align: left;
 }
-.new_box a {
+.new_box .detail {
     color: #5b7c1d;
     position: absolute;
     right: 3px;
     bottom: 0;
+}
+.new_box .favorite, .new_box .share {
+    position: absolute;
+    width: 32px;
+    display: none;
+}
+.new_box .favorite {
+    top: 75px;
+    left: 75px;
+    height: 29px;
+    background: url(../images/icon.png) 0 0 no-repeat;
+}
+.new_box .share {
+    top: 73px;
+    right: 38px;
+    height: 32px;
+    background: url(../images/icon.png) -37px 0 no-repeat;
+}
+.new_box.cover div {
+    border-color: #f9891b
+}
+.new_box.cover .favorite, .new_box.cover .share {
+    display: block;
 }
