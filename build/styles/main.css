@@ -127,3 +127,20 @@ blockquote, q {
     width: 980px;
     margin: 0 auto;
 }
+.main {
+    width: 715px;
+    float: left;
+}
+.side {
+    width: 250px;
+    float: right;
+}
+.side_box {
+    border: 1px solid #7cab1e;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.side_box h3 {
+    font-size: 14px;
+    padding: 5px;
+}
