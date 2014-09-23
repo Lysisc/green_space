@@ -66,10 +66,12 @@ blockquote, q {
 
 .header {
     width: 100%;
-    background: url() no-repeat;
+    background: url(../images/header_bg.png) repeat-x;
+    height: 136px;
 }
 .header .center {
     width: 980px;
+    padding-top: 40px;
     margin: 0 auto;
     position: relative;
 }
@@ -78,11 +80,12 @@ blockquote, q {
     height: 40px;
     display: block;
     background: url(../images/index_logo.png) -35px 0 no-repeat;
-    margin: 40px 0 25px 100px;
+    margin-left: 100px;
+    margin-bottom: 25px;
 }
 .header .center .header_city {
     position: absolute;
-    top: 20px;
+    top: 60px;
     left: 420px;
     font-size: 16px;
 }
