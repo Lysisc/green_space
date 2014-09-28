@@ -76,11 +76,31 @@
 }
 .index_bg {
     width: 100%;
+    position: relative;
+    z-index: 1;
     overflow: hidden;
 }
 .index_bg img {
     width: 100%;
     height: 100%;
+}
+.index_bg div {
+    position: absolute;
+    top: 21%;
+    left: 21%;
+}
+.index_bg div h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #4d4d4d;
+}
+.index_bg div h3 {
+    color: #83a80c;
+    margin-bottom: 10px;
+}
+.index_bg div p {
+    color: #565656;
+    line-height: 18px;
 }
 .index_container {
     width: 100%;

@@ -128,6 +128,7 @@ blockquote, q {
 }
 .content {
     width: 980px;
+    padding-bottom: 70px;
     margin: 0 auto;
 }
 .main {
