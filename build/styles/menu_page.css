@@ -1,0 +1,157 @@
+.top_line {
+	border-top: 1px solid #ddd;
+	padding-top: 30px;
+}
+.left_menu {
+    float: left;
+    margin-right: 40px;
+    width: 140px;
+    border-top: 1px solid #ddd;
+}
+.left_menu dt {
+    color: #628817;
+    line-height: 30px;
+    padding-left: 7px;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+.left_menu dd {
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-left: 20px;
+}
+.left_menu dd a {
+    font-size: 13px;
+}
+.left_menu dd a i {
+    display: none;
+}
+.left_menu dd.cur a i {
+    display: inline-block;
+    width: 10px;
+    height: 8px;
+    background: url(../images/icon.png) -80px -40px no-repeat;
+    margin-left: 45px;
+}
+.menu_cont {
+    float: left;
+    width: 630px;
+    overflow: hidden;
+}
+.menu_cont h1 {
+	padding-left: 10px;
+	font-size: 20px;
+	color: #628817;
+	margin-bottom: 20px;
+}
+.menu_cont h1 span {
+	color: #828282;
+	margin-left: 15px;
+}
+.menu_cont .img {
+	width: 608px;
+	padding: 10px;
+	margin-bottom: 25px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+}
+.menu_cont .img img {
+	width: 100%;
+}
+.menu_cont p {
+	line-height: 22px;
+	color: #666;
+	padding: 0 10px;
+}
+.menu_cont textarea {
+	width: 605px;
+	border: 0 none;
+	margin-left: 10px;
+	padding: 9px 10px;
+	line-height: 16px;
+	background-color: #f2f2f2;
+	margin-bottom: 20px;
+}
+.menu_cont input {
+	margin-left: 10px;
+	background-color: #f2f2f2;
+	padding: 9px 10px;
+	line-height: 14px;
+	display: block;
+	margin-bottom: 20px;
+}
+.recruitment {
+	width: 550px;
+	padding-left: 10px;
+	margin-bottom: 50px;
+	border-bottom: 1px dashed #ddd;
+}
+.recruitment h2 {
+	font-size: 16px;
+	color: #444;
+	margin-bottom: 20px;
+}
+.recruitment ul li {
+	font-size: 12px;
+	color: #666;
+	line-height: 24px;
+}
+.recruitment ul li b, .recruitment h3 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #444;
+}
+.recruitment h3 {
+	margin-top: 25px;
+}
+.recruitment p {
+	margin-top: 10px;
+}
+.recruitment .btn_box {
+	text-align: center;
+	margin: 35px 0 25px;
+}
+.recruitment .btn_box a, .submit_btn {
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	background-color: #7cab1d;
+	color: #fff;
+	padding: 0 20px;
+	margin: 0 10px;
+}
+.company_det {
+	margin-top: 20px;
+}
+.company_det dl {
+	float: left;
+	width: 50%;
+}
+.company_det dt {
+	color: #7cab1d;
+	font-size: 16px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.company_det dd {
+	line-height: 22px;
+	padding-left: 10px;
+}
+.company_det dd span {
+	color: #999;
+}
+.company_det .spec {
+	width: 100%;
+	clear: both;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin: 20px 0;
+	padding: 15px 0;
+}
+.company_det .spec dt {
+	padding-top: 10px;
+}
+.company_det .spec dt, .company_det .spec dd {
+	background-color: #e9f1d9;
+}

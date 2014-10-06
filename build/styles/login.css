@@ -1,0 +1,142 @@
+.login_content {
+    width: 985px;
+    margin: -10px auto 0;
+    padding-top: 42px;
+    overflow: hidden;
+}
+.login_content .login_box {
+    float: left;
+    border: 1px solid #83a80c;
+    position: relative;
+    z-index: 1;
+}
+.login_content .login_box .login_title {
+    font-size: 16px;
+    position: absolute;
+    z-index: 1;
+    left: -1px;
+    top: -43px;
+    width: 150px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    color: #83a80c;
+    border: 1px solid #83a80c;
+    border-bottom: 0 none;
+    background-color: #f2f2f2;
+}
+.login_content .login_box .label_text {
+    font-size: 14px;
+}
+.login_content .login_box .text {
+    position: relative;
+    z-index: 1;
+}
+.login_content .login_box .text i {
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    right: 5px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/icon.png) -120px -40px no-repeat;
+}
+.login_content .login_box .text input {
+    width: 293px;
+    border: 1px solid #dcdcdc;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 7px 5px;
+}
+.login_content .login_box .text input:focus {
+    border-color: #7cab1e;
+}
+.login_content .login_box .login_btn {
+    display: block;
+    width: 116px;
+    height: 36px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #7cab1e;
+    color: #fff;
+    font-size: 14px;
+    line-height: 36px;
+    text-decoration: none;
+}
+.login_content .user_login {
+    width: 305px;
+    height: 330px;
+    padding: 45px 115px 30px;
+    margin-right: 25px;
+}
+.login_content .user_login .regist {
+    position: absolute;
+    z-index: 1;
+    top: -32px;
+    right: 30px;
+    width: 115px;
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    background-color: #7cbe56;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.login_content .user_login .login_ctrl {
+    margin: 20px 0 25px;
+}
+.login_content .user_login .login_ctrl label {
+    vertical-align: 20%;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.login_content .user_login .login_ctrl .fr {
+    color: #628817;
+}
+.login_content .user_login .coop {
+    margin-top: 30px;
+}
+.login_content .user_login .coop h3 {
+    color: #999;
+    margin-bottom: 15px;
+}
+.login_content .guest_login {
+    width: 360px;
+    height: 345px;
+    padding: 30px;
+    border-color: #f9891b;
+}
+.login_content .guest_login .login_title {
+    border-color: #f9891b;
+    color: #f9891b;
+}
+.login_content .guest_login .login_img {
+    width: 360px;
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+.login_content .guest_login .label_text {
+    text-align: center;
+}
+.login_content .guest_login .text input {
+    width: 295px;
+    margin-left: 27px;
+    margin-bottom: 5px;
+}
+.login_content .guest_login .text input:focus {
+    border-color: #f9891b;
+}
+.login_content .guest_login .text i {
+    right: 30px;
+}
+.login_content .guest_login p {
+    width: 300px;
+    margin-left: 30px;
+    line-height: 18px;
+    margin-bottom: 40px;
+}
+.login_content .guest_login .login_btn {
+    background-color: #f9891b;
+}
