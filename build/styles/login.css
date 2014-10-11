@@ -5,7 +5,6 @@
     overflow: hidden;
 }
 .login_content .login_box {
-    float: left;
     border: 1px solid #83a80c;
     position: relative;
     z-index: 1;
@@ -65,6 +64,7 @@
     text-decoration: none;
 }
 .login_content .user_login {
+    float: left;
     width: 305px;
     height: 330px;
     padding: 45px 115px 30px;
@@ -78,6 +78,7 @@
     width: 115px;
     height: 32px;
     line-height: 32px;
+    font-size: 14px;
     color: #fff;
     background-color: #7cbe56;
     text-align: center;
@@ -103,6 +104,7 @@
     margin-bottom: 15px;
 }
 .login_content .guest_login {
+    float: left;
     width: 360px;
     height: 345px;
     padding: 30px;
@@ -139,4 +141,149 @@
 }
 .login_content .guest_login .login_btn {
     background-color: #f9891b;
+}
+
+.login_content .user_regist {
+    height: 330px;
+    padding: 90px 115px 40px;
+}
+.login_content .user_regist .regist {
+    font-size: 14px;
+    position: absolute;
+    z-index: 1;
+    top: -32px;
+    right: 30px;
+    width: 115px;
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    background-color: #7cbe56;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.login_content .user_regist .text label {
+    display: inline-block;
+    width: 75px;
+}
+.login_content .user_regist .login_btn {
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.login_content .user_regist_go .login_btn {
+    display: inline-block;
+}
+.login_content .user_regist_go .regist_error {
+    color: #0f398f;
+}
+.login_content .user_regist_go p {
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.login_content .user_regist_go p a {
+    color: #f88535;
+    margin: 0 5px;
+    text-decoration: underline;
+}
+.login_content .user_regist h2 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-left: 75px;
+}
+.login_content .user_regist h3 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+    margin-left: 75px;
+}
+.login_content .user_regist .regist_txt {
+    line-height: 22px;
+    color: #999;
+    margin-left: 75px;
+}
+.login_content .user_regist .regist_txt a {
+    color: #0f398f;
+}
+.login_content .user_regist .send_mail {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    width: 63px;
+    height: 63px;
+    background: url(../images/icon.png) right -70px no-repeat;
+}
+.login_content .user_regist .regist_line {
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border-bottom: 1px dashed #ddd;
+    width: 530px;
+    margin: 20px 0 40px 75px;
+
+}
+.intensity {
+    margin-left: 10px;
+}
+.intensity span {
+    display: inline-block;
+    width: 58px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    background-color: #fed19a;
+}
+.intensity span.cur {
+    background-color: #f88535;
+}
+.regist_progress {
+    position: absolute;
+    width: 980px;
+    text-align: center;
+    height: 56px;
+    line-height: 56px;
+    font-size: 14px;
+    border-bottom: 1px dashed #ddd;
+}
+.regist_progress span {
+    color: #999;
+    margin-right: 6px;
+}
+.regist_progress span i {
+    display: inline-block;
+    line-height: 17px;
+    width: 190px;
+    height: 17px;
+    vertical-align: -25%;
+    margin-right: 10px;
+    background: url(../images/icon.png) right -50px no-repeat;
+}
+.regist_progress span.cur {
+    color: #abd251;
+}
+.regist_progress span.cur i {
+    background-position: right -30px;
+}
+.user_success {
+    width: 345px;
+    margin: 0 auto;
+    text-align: center;
+}
+.user_success h2 {
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 15px;
+}
+.user_success .user_success_bg {
+    width: 111px;
+    height: 111px;
+    background: url(../images/icon.png) -220px -70px no-repeat;
+    margin: 15px auto;
+}
+.login_content .user_regist .user_success .login_btn {
+    margin: 15px 0 8px;
+    display: inline-block;
+}
+.login_content .user_regist .user_success h2, .login_content .user_regist .user_success p {
+    margin-left: 0;
 }

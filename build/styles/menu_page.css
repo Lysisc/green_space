@@ -155,3 +155,6 @@
 .company_det .spec dt, .company_det .spec dd {
 	background-color: #e9f1d9;
 }
+.menu_box {
+	display: none;
+}
