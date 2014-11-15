@@ -152,3 +152,28 @@ blockquote, q {
     font-size: 14px;
     padding: 5px;
 }
+.page {
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+}
+.page .prev {
+    margin-right: 5px;
+}
+.page .next {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.page .num {
+    display: inline-block;
+    border: 1px solid #ddd;
+    color: #2e5097;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+}
+.page .total, .page .cur {
+    color: #ff6a0d;
+}

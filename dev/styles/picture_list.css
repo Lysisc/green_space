@@ -1,0 +1,81 @@
+.pic_title_box {
+    border-top: 1px solid #ddd;
+    padding: 20px 10px 0;
+    margin-bottom: 30px;
+}
+.pic_title_box .pic_img {
+    width: 112px;
+    height: 70px;
+    padding: 3px;
+    border: 1px solid #ddd;
+    background: url(../images/picture_bg.png) 3px 3px no-repeat;
+    float: left;
+    margin-right: 40px;
+}
+.pic_title_box .pic_title {
+    font-size: 30px;
+    color: #628817;
+    padding: 23px 0;
+    border-bottom: 1px dashed #ddd;
+    float: left;
+}
+.pic_title_box .pic_title span {
+    color: #333;
+    margin-left: 25px;
+    font-size: 14px;
+}
+.pic_title_box .pic_title span b {
+    color: #ff6a0d;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+.pic_tab a {
+    display: block;
+    float: left;
+    border: 1px solid #ddd;
+    border-bottom-color: #7cab1e;
+    font-size: 14px;
+    text-align: center;
+    width: 88px;
+    padding: 6px 0;
+    margin-left: 10px;
+    background-color: #f2f2f2;
+    text-decoration: none;
+}
+.pic_tab a span {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.pic_tab a.cur {
+    border-color: #7cab1e;
+    border-bottom-color: #fff;
+    background-color: #fff;
+}
+.pic_tab a.cur span {
+    color: #7cab1e;
+}
+.pic_list_box {
+    border: 1px solid #7cab1e;
+    margin-top: -1px;
+    padding: 30px;
+}
+.pic_list div {
+	width: 1000px;
+}
+.pic_list a {
+    display: block;
+    width: 190px;
+    height: 140px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    float: left;
+    margin-right: 37px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.pic_list a img {
+	width: 190px;
+	height: 140px;
+}
